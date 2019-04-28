@@ -5,5 +5,9 @@ class Anagram
   
   @list = [] 
   
-  def 
+  def initialize(word)
+    @word = word 
+  end 
+  
+
 end 
