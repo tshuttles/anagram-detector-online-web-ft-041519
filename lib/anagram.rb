@@ -3,7 +3,8 @@ class Anagram
   
   attr_accessor :word 
   
+  @@list = [] 
   
-  word = Anagram.new 
+  def initialize 
   
 end 
