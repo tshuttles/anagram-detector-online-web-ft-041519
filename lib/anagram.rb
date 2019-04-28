@@ -3,5 +3,7 @@ class Anagram
   
   attr_accessor :word 
   
+  @list = [] 
   
+  def 
 end 
