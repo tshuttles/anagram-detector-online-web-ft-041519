@@ -4,4 +4,6 @@ class Anagram
   attr_accessor :word 
   
   
+  word = Anagram.new 
+  
 end 
