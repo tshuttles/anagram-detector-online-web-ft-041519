@@ -5,6 +5,8 @@ class Anagram
   
   @@list = [] 
   
-  def initialize 
+  def initialize
+    
+  end 
   
 end 
