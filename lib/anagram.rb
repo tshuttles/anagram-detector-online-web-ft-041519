@@ -6,7 +6,5 @@ class Anagram
   def anagrams(word, words)
     words.select { |w| w.chars.sort.join == word.chars.sort.join }
   end
-
-  puts anagrams('abba', ['bbaa', 'ddffgg', 'baab'])   
   
 end 
