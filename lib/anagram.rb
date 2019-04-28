@@ -6,5 +6,5 @@ class Anagram
   def anagrams(word, words)
     words.select { |w| w.chars.sort.join == word.chars.sort.join }
   end
-  anagrams 
+  self.anagrams 
 end 
