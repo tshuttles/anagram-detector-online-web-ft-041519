@@ -12,5 +12,9 @@ class Anagram
     array.each |do| 
       if word.split("").sort == word.split("").sort
         list << word 
+      else 
+        list 
+      end 
+    end 
   end 
 end 
