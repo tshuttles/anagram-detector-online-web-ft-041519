@@ -10,6 +10,6 @@ class Anagram
   end 
   
   def match(array)
-    array.each |do| 
+    @list.each |do| 
   end 
 end 
