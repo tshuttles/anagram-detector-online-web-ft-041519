@@ -11,5 +11,6 @@ class Anagram
     list = [] 
     array.each |do| 
       if word.split("").sort == word.split("").sort
+        list << word 
   end 
 end 
