@@ -8,6 +8,7 @@ class Anagram
   end 
   
   def match(array)
-    @list.each |do| 
+    array.each |do| 
+      if 
   end 
 end 
