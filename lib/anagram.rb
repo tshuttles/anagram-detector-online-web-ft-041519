@@ -1,7 +1,7 @@
 # Your code goes here!
 class Anagram 
   
-  attr_accessor :word, :match 
+  attr_accessor :word, :list
   
   @list = [] 
   
