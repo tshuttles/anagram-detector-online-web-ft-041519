@@ -10,9 +10,9 @@ class Anagram
   def match(array)
     list = [] 
     array.each do |diaper|
-    list << diaper if diaper.split('').sort == self.diaper.split('').sort
+    list << word if word.split('').sort == self.word.split('').sort
     end
-    matches
+    list 
   end 
 end
 end 
