@@ -8,6 +8,7 @@ class Anagram
   end 
   
   def match(array)
+    array = [] 
     array.each |do| 
       if 
   end 
