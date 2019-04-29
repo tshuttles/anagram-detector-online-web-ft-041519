@@ -16,5 +16,6 @@ class Anagram
         list 
       end 
     end 
+    list 
   end 
 end 
